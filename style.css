@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -25,43 +25,11 @@ input[type="number"], button {
     border-radius: 5px;
     border: 1px solid #ccc;
     width: 80%; /* Set width to 80% for better alignment */
-    box-sizing: border-box; /* Include padding and border in the element's total width */
-}
-
-button {
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-#result {
-    margin-top: 60px;
-    text-align: center; /* Align the result text to the left */
-}
-
-#logo {
-    max-width: 120px;
-    margin-top: 20px;
-    border: 2px solid #007bff; /* Add border to the logo */
-    border-radius: 5px;
-}
-
-#owner-photo {
-    max-width: 120px;
-    border-radius: 50%;
-    margin-top: 20px;
-    border: 2px solid #007bff; /* Add border to the owner photo */
-}
+/*   */
 
 
 
-
-
-/* body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -80,13 +48,17 @@ button:hover {
 
 h1 {
     color: #007bff;
+    font-size: 24px; /* Increase font size */
 }
 
 input[type="number"], button {
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    padding: 15px; /* Increase padding */
+    margin: 10px 0;
+    border-radius: 10px; /* Increase border-radius */
+    border: 2px solid #ccc;
+    width: 80%; /* Set width to 80% for better alignment */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    font-size: 18px; /* Increase font size */
 }
 
 button {
@@ -100,17 +72,21 @@ button:hover {
 }
 
 #result {
-    margin-top: 20px;
+    margin-top: 60px;
+    text-align: center; /* Align the result text to the center */
+    font-size: 20px; /* Increase font size */
 }
 
 #logo {
-    max-width: 100px;
+    max-width: 120px;
     margin-top: 20px;
+    border: 2px solid #007bff; /* Add border to the logo */
+    border-radius: 5px;
 }
 
 #owner-photo {
-    max-width: 200px;
+    max-width: 120px;
     border-radius: 50%;
     margin-top: 20px;
+    border: 2px solid #007bff; /* Add border to the owner photo */
 }
- */
