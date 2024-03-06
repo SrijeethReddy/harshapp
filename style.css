@@ -39,8 +39,8 @@ button:hover {
 }
 
 #result {
-    margin-top: 20px;
-    text-align: left; /* Align the result text to the left */
+    margin-top: 60px;
+    text-align: center; /* Align the result text to the left */
 }
 
 #logo {
