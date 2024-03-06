@@ -1,4 +1,4 @@
-/* body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -10,15 +10,22 @@
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
 }
 
 input[type="number"], button {
     padding: 10px;
-    margin: 5px 0;
+    margin: 10px 0;
     border-radius: 5px;
     border: 1px solid #ccc;
+    width: 80%; /* Set width to 80% for better alignment */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
 }
 
 button {
@@ -30,11 +37,31 @@ button {
 button:hover {
     background-color: #0056b3;
 }
- */
+
+#result {
+    margin-top: 20px;
+    text-align: left; /* Align the result text to the left */
+}
+
+#logo {
+    max-width: 100px;
+    margin-top: 20px;
+    border: 2px solid #007bff; /* Add border to the logo */
+    border-radius: 5px;
+}
+
+#owner-photo {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 2px solid #007bff; /* Add border to the owner photo */
+}
 
 
 
-body {
+
+
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -86,3 +113,4 @@ button:hover {
     border-radius: 50%;
     margin-top: 20px;
 }
+ */
