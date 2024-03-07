@@ -3,20 +3,18 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    text-align: center; /* Center inline elements */
 }
 
 .container {
-    max-width: 500px;
-    margin: auto; /* Center horizontally */
+    max-width: 90vw; /* Set maximum width to 90% of viewport width */
+    margin: 50px auto; /* Center horizontally */
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: center;
+    display: inline-block; /* Ensure inline block to center properly */
 }
 
 h1 {
