@@ -3,14 +3,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Ensure full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
     max-width: 500px;
+    margin: auto; /* Center horizontally */
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
