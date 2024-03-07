@@ -1,51 +1,32 @@
-<div class="container">
-    <img src="logo.jpeg" id="logo" alt="Logo">
-    <h1>Interest Calculator</h1>
-    <div>
-        <label for="amount">Enter Amount:</label>
-        <input type="number" id="amount" min="0" step="any">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Meta tag for fit to screen sizing -->
+    <title>Interest Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.jpeg" id="logo" alt="Logo">
+        <h1>Interest Calculator</h1>
+        <div>
+            <label for="amount">Enter Amount:</label>
+            <input type="number" id="amount" min="0" step="any">
+        </div>
+        <div>
+            <label for="rate">Enter Rate of Interest (%):</label>
+            <input type="number" id="rate" min="0" step="any">
+        </div>
+        <button onclick="calculateInterest()">Calculate</button>
+        <div id="result"></div>
+        
+        <script src="script.js"></script>
+        
+        <div>
+            <h1> Tereva Re (Realtor)</h1>
+            <img src="owner-photo.jpeg" id="owner-photo" alt="Owner Photo">
+        </div>
     </div>
-    <div>
-        <label for="rate">Enter Rate of Interest (%):</label>
-        <input type="number" id="rate" min="0" step="any">
-    </div>
-    <button onclick="calculateInterest()">Calculate</button>
-    <div id="result"></div>
-    
-    <script src="script.js"></script>
-    
-    <div>
-        <h1> Tereva Re (Realtor)</h1>
-               
-        <img src="owner-photo.jpeg" id="owner-photo" alt="Owner Photo">
-    </div>
-</div>
-
-
-
- -->
-<!-- <div class="container">
-    <img src="logo.jpeg" id="logo" alt="Logo">
-    <h1>Interest Calculator</h1>
-    <div>
-        <label for="amount">Enter Amount:</label>
-        <input type="number" id="amount" min="0" step="any">
-    </div>
-    <div>
-        <label for="amount">Enter Years:</label>
-        <input type="number" id="years" min="0" step="any">
-    </div>
-    <div>
-        <label for="rate">Enter Rate of Interest (%):</label>
-        <input type="number" id="rate" min="0" step="any">
-    </div>
-    <button onclick="calculateInterest()">Calculate</button>
-    <div id="result"></div>
-    
-    <script src="script.js"></script>
-    
-    <div>
-        <h1> Tereva Re</h1>
-    <img src="owner-photo.jpeg" id="owner-photo" alt="Owner Photo">
-</div>
- -->
+</body>
+</html>
